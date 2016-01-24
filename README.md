@@ -16,10 +16,6 @@ Về thông tin bàn đã được xếp đó như: Tên KH, đồ ăn uống, g
 Chọn KH, add items, sau đó nếu THANH TOÁN luôn thì sẽ gửi thông tin hóa đơn đó lên server luôn.
 Còn nếu bấm vào LƯU TẠM thì nó sẽ lưu thông tin hóa đơn đó lên server để sau khi load lại, tất cả thông tin hóa đơn đó sẽ điền lại vào bảng để mua hàng tiếp.
 
-
-
----- TẤT CẢ CHÚ Ý: MỌI THÔNG TIN MUA BÁN NHƯ PRODUCT, SỐ LƯỢNG, TỔNG TIỀN, PHẢI ĐƯỢC ĐƯA LÊN SERVER HẾT, ANH XUÂN NHỚ ĐƯA CHO BÊN DEV CÁC TRƯỜNG CỦA BẢNG ORDER_DETAIL ĐỂ HỌ CÓ THỂ BIẾT ĐƯỢC CẦN TRUYỀN LÊN NHỮNG GÌ ----
-
 •	Nghiệp vụ phần Giao diện bán hàng:
 
 Mỗi khi nhân viên login thành công, sẽ thực hiện điều đầu tiên đó là LOAD giao diện mặc định của nhà hàng đó. 
