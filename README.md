@@ -6,7 +6,7 @@ ePOS for android app
 
 -	Xếp bàn: Khi bấm vào bàn, và bấm xếp bàn thì bàn đó sẽ được hiểu là đang có khách ăn uống ở đó và thực hiện add items. Thanh toán như bình thường.
 Về thông tin bàn đã được xếp đó như: Tên KH, đồ ăn uống, giá tiền sẽ được lưu vào database sau khi bấm vào nút LƯU. Để nhân viên khác có thể bấm nút REFRESH trạng thái bàn và thấy thông tin bàn đó để thanh toán, không nhất thiết chỉ nhân viên trực tiếp xếp bàn mới được thanh toán.
-( Sau khi thanh toán xong, table đó có chứa trường order_id sẽ set order_id = 0 << anh Xuân chú ý điều này)
+( Sau khi thanh toán xong, table đó có chứa trường order_id sẽ set order_id = 0y)
 
 -	Đặt bàn: Khi bấm vào bàn, và bấm vào Đặt Bàn thì bàn đó được hiểu là có khách đang đặt bàn đó rồi ( có thể là gọi điện thoại đặt trước và sẽ đến sau ). Khi nào khách đến thì bấm vào bàn đã được đặt đó và XẾP BÀN thì lại như ở trên.
 -	Gộp bàn: Đang hoàn thiện.
