@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/project/maybanhang/DataSource.java=UTF-8
+encoding//src/project/maybanhang/adapters/GopBanAdapter.java=UTF-8
+encoding//src/project/maybanhang/adapters/TableListAdapter.java=UTF-8
+encoding//src/project/maybanhang/entity/Bill.java=UTF-8
+encoding//src/project/maybanhang/entity/Customer.java=UTF-8
+encoding//src/project/maybanhang/entity/User.java=UTF-8
+encoding//src/project/maybanhang/fragment/CategoryFragment.java=UTF-8
+encoding//src/project/maybanhang/fragment/GroupCustomerFragment.java=UTF-8
+encoding//src/project/maybanhang/fragment/PlacesFragement.java=UTF-8
+encoding//src/project/maybanhang/fragment/ProductFragment.java=UTF-8
+encoding//src/project/maybanhang/fragment/RestaurantFragment.java=UTF-8
+encoding//src/project/maybanhang/ver1/LoginActivity.java=UTF-8
+encoding//src/project/maybanhang/ver1/RestaurantActivity.java=UTF-8
+encoding//src/project/maybanhang/ver1/ShopActivity.java=UTF-8

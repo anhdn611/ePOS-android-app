@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="5dp"
+        android:gravity="top|center_vertical">
+
+        <TextView
+            android:id="@+id/hoadon_number"
+            style="@style/order_list_style"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/hoad_date"
+            style="@style/order_list_style"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@id/hoadon_number"
+            android:gravity="right"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/hoadon_customer_name"
+            style="@style/order_list_style"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@id/hoad_date"
+            android:gravity="right"
+            android:text="10" />
+
+        <TextView
+            android:id="@+id/hoadon_tonghang"
+            style="@style/order_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/hoadon_customer_name"
+            android:gravity="right"
+            android:text="150,000,000" />
+
+        <TextView
+            android:id="@+id/hoadon_chietkhau"
+            style="@style/order_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/hoadon_tonghang"
+            android:text="150,000,000" />
+        <TextView
+            android:id="@+id/hoadon_thanhtien"
+            style="@style/order_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/hoadon_chietkhau"
+            android:gravity="right"
+            android:text="150,000,000" />
+<TextView
+            android:id="@+id/hoadon_thanhtoan"
+            style="@style/order_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/hoadon_thanhtien"
+            android:gravity="right"
+            android:text="150,000,000" />
+<TextView
+            android:id="@+id/hoadon_trangthai"
+            style="@style/order_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/hoadon_thanhtoan"
+            android:gravity="right"
+            android:text="150,000,000" />
+    </RelativeLayout>
+</LinearLayout>

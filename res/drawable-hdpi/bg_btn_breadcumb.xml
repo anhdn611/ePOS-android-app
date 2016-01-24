@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke
+    android:width="2dp"
+    android:color="#8293a3" />    
+    <corners android:topRightRadius="15dp"
+        android:bottomRightRadius="15dp"/>
+</shape>
+	<item android:drawable="@drawable/bg_active_tab"></item>
+</layer-list>

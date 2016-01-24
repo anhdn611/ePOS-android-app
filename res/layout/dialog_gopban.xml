@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="600dp"
+    android:layout_height="500dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <GridView
+        android:id="@+id/gv_gopban_list_table"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:choiceMode="multipleChoice"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp" >
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/tv_chon_tang"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/ChonSoLuongBackground"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/gopban_chontang"
+        android:textColor="@android:color/white" />
+
+    <GridView
+        android:id="@+id/gv_gopban_list_place"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:choiceMode="singleChoice"        
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp">
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btn_gopban_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gopban_dialog"
+            android:minWidth="80dip"
+            android:text="@string/gop_ban"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_gopban_huybo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_huybo_dialog"
+            android:textColor="@android:color/white"
+            android:text="@string/huy" />
+
+    </LinearLayout>
+
+</LinearLayout>

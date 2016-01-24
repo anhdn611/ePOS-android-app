@@ -1,0 +1,15 @@
+<resources>
+	<color name="background_dialog_tv_thanhtoan">#f5f2e4</color>
+	<color name="background_dialog_btn_thanhtoan">#bc282c</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="LoginBackGround">#1e293d</color>
+    <color name="LoginRedForeground">#d0243b</color>
+    <color name="TotalPayBackground">#11a8ab</color>
+    <color name="OrderBackground">#525a68</color>
+    <color name="ProductsBackground">#f7f7f7</color>
+    <color name="ButtonBarBackground">#1e293d</color>
+    <color name="PlaceItemBackground">#e4e4e4</color>
+    <color name="Background">#f7f7f7</color>
+    <color name="ChonSoLuongBackground">#ea2c46</color>
+   
+</resources>

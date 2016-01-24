@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/lnlayout_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:background="@android:color/white"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/table_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_table" />
+
+        <TextView
+            android:id="@+id/table_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_horizontal"
+            android:lines="2"
+            android:maxLines="2"
+            android:text="Title"
+            android:textColor="@color/order_item" />
+
+        <ImageView
+            android:id="@+id/ticker"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/table_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_ticker"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</FrameLayout>

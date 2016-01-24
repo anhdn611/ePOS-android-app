@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    
+
+    <RelativeLayout 
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="5dp"
+        android:gravity="top|center_vertical">
+
+        <Button
+            android:padding="3dp"
+            android:id="@+id/Btn_delete_order_item"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top"    
+            android:layout_marginRight="5dp"            
+            android:background="@drawable/icon_delete_order_item"
+             />
+
+        <TextView
+            android:id="@+id/order_name"
+            style="@style/order_list_style"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/Btn_delete_order_item"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/order_num1"
+            style="@style/order_list_style"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@id/order_name"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/order_num2"
+            style="@style/order_list_style"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@id/order_num1"
+            android:gravity="right"
+            android:text="10" />
+
+        <TextView
+            android:id="@+id/order_total_price"
+            style="@style/order_list_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/order_num2"
+            android:gravity="right"
+            android:text="150,000,000" />
+
+    </RelativeLayout>
+</RelativeLayout>

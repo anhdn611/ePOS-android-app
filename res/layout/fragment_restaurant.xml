@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_chef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/LoginBackGround" >
+
+        <Button
+            android:id="@+id/btn_refresh_table"
+            style="@style/button_chinhsua_style"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:drawablePadding="1dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btn_tatca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:text="@string/Tat_ca"
+            android:textColor="@android:color/white"
+            android:width="100dp" />
+
+        <TextView
+            android:id="@+id/tv_selected_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btn_tatca"
+            android:background="@drawable/icon_breadcumb"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Khu vực 1"
+            android:textColor="@color/White"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp" >
+
+        <GridView
+            android:id="@+id/gridview_restaurant_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Background"
+            android:choiceMode="singleChoice"
+            android:columnWidth="130dp"
+            android:drawSelectorOnTop="true"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@drawable/table_selector"
+            android:numColumns="4"
+            android:padding="10dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/LoginBackGround" >
+
+        <Button
+            android:id="@+id/btn_refresh_products"
+            style="@style/button_chinhsua_style"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btn_allQuickKeySession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@android:color/transparent"
+            android:text="@string/san_pham"
+            android:textColor="@android:color/white"
+            android:width="120dp" />
+
+        <TextView
+            android:id="@+id/tv_selected_giaodien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btn_allQuickKeySession"
+            android:background="@drawable/icon_breadcumb"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Hot"
+            android:visibility="invisible"
+            android:textColor="@color/White" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridview_restaurant_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Background"
+        android:columnWidth="130dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>
